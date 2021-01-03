@@ -17,8 +17,8 @@ const App = ()=> {
   const [winMessage, setWinMessage] = useState("");
 
   const reloadGame = () => {
-    setIsCross = false;
-    setWinMessage = "";
+    setIsCross(false);
+    setWinMessage ("");
     itemArray.fill('empty',0,9);
   };
 
